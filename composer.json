@@ -1,0 +1,30 @@
+{
+  "name": "piotrpress/streamer",
+  "type": "library",
+  "license": "GPL-3.0",
+  "description": "This library is a custom PHP Stream Wrapper, which provides write/read operations and stores the data in the memory.",
+  "homepage": "https://PiotrPress",
+  "authors": [
+    {
+      "name": "Piotr Niewiadomski",
+      "homepage": "https://github.com/PiotrPress"
+    }
+  ],
+  "keywords": [
+    "stream", "stream wrapper", "streamwrapper", "protocol", "filesystem", "file" ,"mock", "mockup", "url", "virtual", "temporary", "memory", "fake"
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "PiotrPress\\": "src/"
+    },
+    "classmap": [
+      "src"
+    ]
+  }
+}
