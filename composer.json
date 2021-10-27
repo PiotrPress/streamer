@@ -1,7 +1,7 @@
 {
   "name": "piotrpress/streamer",
   "type": "library",
-  "license": "GPL-3.0",
+  "license": "GPL-3.0-or-later",
   "description": "This library is a custom PHP Stream Wrapper, which provides write/read operations and stores the data in the memory.",
   "homepage": "https://PiotrPress",
   "authors": [
@@ -18,6 +18,9 @@
   },
   "require-dev": {
     "phpunit/phpunit": "^9.5.10"
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
   },
   "autoload": {
     "psr-4": {

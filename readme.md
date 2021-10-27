@@ -1,5 +1,7 @@
 # Streamer
 
+![Tests](https://github.com/PiotrPress/streamer/actions/workflows/tests.yml/badge.svg)
+
 This library is a custom [PHP Stream Wrapper](https://www.php.net/manual/en/class.streamwrapper.php), which provides write/read operations and stores the data in the memory.
 
 **NOTE:** It is similar to `php:// memory`, with the difference that is reusable, i.e. after the stream has been closed you can reopen it and the written data are still there, similar to regular file. Take a look at example of usage below.
