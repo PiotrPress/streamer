@@ -12,7 +12,7 @@ class Streamer {
     protected static array $data = [];
 
     static public function register( string $protocol, int $flags = 0 ) : bool {
-        return \stream_wrapper_register( $protocol, self::class, $flags );
+        return \stream_wrapper_register( $protocol, static::class, $flags );
     }
 
     static public function unregister( string $protocol ) : bool {
